@@ -48,6 +48,7 @@ const Background = styled.header`
     display: flex;
     align-items: center;
     justify-content: center;
+    white-space: nowrap;
 
     &:hover {
       background: rgb(201, 69, 69);
