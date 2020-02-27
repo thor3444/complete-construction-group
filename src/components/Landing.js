@@ -49,6 +49,7 @@ const Background = styled.header`
     align-items: center;
     justify-content: center;
     white-space: nowrap;
+    transition: background-color 0.3s, color 0.3s;
 
     &:hover {
       background: rgb(201, 69, 69);

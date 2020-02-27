@@ -29,6 +29,7 @@ const Foot = styled.footer`
     li {
       display: flex;
       align-items: center;
+      white-space: nowrap;
 
       img {
         height: 1.2rem;
