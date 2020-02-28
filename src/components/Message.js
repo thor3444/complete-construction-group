@@ -123,24 +123,43 @@ export const Message = ({ dark }) => {
             <h3>We will turn your dreams into a reality</h3>
             <p>Send us a message or give us a call at (513) 828-5801</p>
           </div>
-          <form>
+          <form name="contact" method="post">
+            <input type="hidden" name="form-name" value="contact" />
             <label htmlFor="first">Name</label>
             <div className="group">
-              <input type="text" id="first" placeholder="First" required />
-              <input type="text" id="last" placeholder="Last" required />
+              <input
+                type="text"
+                id="first"
+                placeholder="First"
+                name="first"
+                required
+              />
+              <input
+                type="text"
+                id="last"
+                placeholder="Last"
+                name="last"
+                required
+              />
             </div>
             <label htmlFor="email">Email</label>
             <input
               type="email"
               id="email"
+              name="email"
               placeholder="name@example.com"
               required
             />
             <label htmlFor="phone">Phone</label>
-            <input type="tel" id="phone" placeholder="987-654-3210" required />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="987-654-3210"
+            />
             <label htmlFor="message">Message</label>
             <textarea name="message" id="message" rows="4"></textarea>
-            <button>
+            <button type="submit">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
