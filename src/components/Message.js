@@ -53,6 +53,9 @@ const Wrapper = styled.div`
       margin-bottom: 1rem;
       background-color: ${props => (props.dark ? "white" : "#e3e3e3")};
       resize: vertical;
+      font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
     }
 
     button {
