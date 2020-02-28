@@ -96,7 +96,7 @@ export const Intro = () => {
             We offer remodeling services in the Cincinnati and Florence area.
             You can count on us to give new life to all areas of your home
             including your kitchen, bathroom, basement, and even your outdoor
-            living space. We get things done the right way in a timwly manner
+            living space. We get things done the right way in a timely manner
             while staying within your budget.
           </p>
           <Link to="/services">
